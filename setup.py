@@ -19,5 +19,14 @@ setup(
     author_email='dev@behnamlal.xyz',
     url='https://github.com/CheesyChocolate/Python_Template',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU Affero General Public License v3",
+        "Operating System :: OS Independent"
+        ],
+    python_requires='>=3.6',
+    install_requires=[
+        'numpy',
+                 ],
 )
